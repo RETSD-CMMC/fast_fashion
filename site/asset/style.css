@@ -1,0 +1,38 @@
+.lowlight{
+	background-color:grey;
+	background: linear-gradient(to right, grey, transparent);
+	width: 100%;
+	bottom: 0;
+	color:black;
+	font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+}
+.blog{
+	width: 100px;
+	height: 100px;
+}
+.thumbnail{
+	width:100%;
+	height:100%;
+}
+.list{
+	padding:40px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	line-height: 30px;
+}
+
+#ad1{
+	position: relative;
+	animation: spammy 20s infinite;
+}
+
+@keyframes spammy {
+  	from {
+		left: -10px;
+	}
+	50%{
+		left: 10px;
+	}
+	to {
+		left: -10px;
+	}
+}
